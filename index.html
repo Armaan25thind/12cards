@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Grid</title>
+    <style>
+        body {
+            background-color: bisque;
+            font-family: 'Courier New', Courier;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.3s;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card h2 {
+            margin: 0 0 10px;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card-grid">
+        <a href="card1.html" class="card">
+            <div class="card-content">
+                <h2>Citroen Basalt</h2>
+            </div>
+        </a>
+        
+        <a href="card2.html" class="card">
+            <div class="card-content">
+                <h2>Tata Curvv EV</h2>
+            </div>
+        </a>
+
+        <a href="card3.html" class="card">
+            <div class="card-content">
+                <h2>Mahindra XUV 3XO</h2>
+            </div>
+        </a>
+
+        <a href="card4.html" class="card">
+            <div class="card-content">
+                <h2>Skoda Slavia</h2>
+            </div>
+        </a>
+
+        <a href="card5.html" class="card">
+            <div class="card-content">
+                <h2>Volkswagen Virtus</h2>
+            </div>
+        </a>
+
+        <a href="card6.html" class="card">
+            <div class="card-content">
+                <h2>Honda Elevate</h2>
+            </div>
+        </a>
+
+        <a href="card7.html" class="card">
+            <div class="card-content">
+                <h2>Citroen C3 Aircross</h2>
+            </div>
+        </a>
+
+        <a href="card8.html" class="card">
+            <div class="card-content">
+                <h2>Maruti Fronx</h2>
+            </div>
+        </a>
+
+        <a href="card9.html" class="card">
+            <div class="card-content">
+                <h2>Tata Punch</h2>
+            </div>
+        </a>
+
+        <a href="card10.html" class="card">
+            <div class="card-content">
+                <h2>index.html</h2>
+            </div>
+        </a>
+    </div>
+
+</body>
+</html>
